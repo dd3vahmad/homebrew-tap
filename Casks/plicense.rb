@@ -3,7 +3,7 @@ cask "plicense" do
   name "plicense"
   desc "A license management CLI written in Go"
   homepage "https://github.com/dd3vahmad/plicense"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "plicense" do
   on_macos do
     on_intel do
       url "https://github.com/dd3vahmad/plicense/releases/download/v#{version}/plicense_darwin_x86_64.tar.gz"
-      sha256 "e010d147a98e89671e1df062427bce75516d83d839cad91f1045a47dcd0c7188"
+      sha256 "49c3913c01801151c1271c4a6f2d509343d794b2f3f55799d878b88178e3e63f"
     end
     on_arm do
       url "https://github.com/dd3vahmad/plicense/releases/download/v#{version}/plicense_darwin_arm64.tar.gz"
-      sha256 "2f5f4daf5b48fd99ca0b20b75a46d6f22d155699f2bcc3f93a984fd432aa3e91"
+      sha256 "f80fd7a9429dda8ce0c8c126562e487c3062d344642a34bdcfaed141cbc87ff0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dd3vahmad/plicense/releases/download/v#{version}/plicense_linux_x86_64.tar.gz"
-      sha256 "b4f4bf3ee48e63ce742114d949c14d08006e031783309e200c0896b55ab147ae"
+      sha256 "45e6c695280d25ecc6267570d4db6e1dc0db97d8d15dcd0f790f1872c448152f"
     end
     on_arm do
       url "https://github.com/dd3vahmad/plicense/releases/download/v#{version}/plicense_linux_arm64.tar.gz"
-      sha256 "30196aa78fe112bd14a7936f957328dc5d1a4201b8f6f233183953ea223d180d"
+      sha256 "3c89d92d9b1144cb9fc73f54f480b8e2c2114e39b618c3d3781a7cce182febb5"
     end
   end
 
